@@ -1,0 +1,12 @@
+.card-character{
+background-color: antiquewhite;
+}
+.card-locaciones{
+    background-color: aquamarine;
+}
+.card-episodios{
+    background-color: lightpink;
+}
+.titulos{
+    font-size: 200%;
+}
