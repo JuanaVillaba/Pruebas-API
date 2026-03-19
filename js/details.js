@@ -1,4 +1,6 @@
-const URL = "https://rickandmortyapi.com/api/character/1"; // cambiar ID cambiar personaje
+let idGuardado = localStorage.getItem("idSeleccionado");
+let URL = `https://rickandmortyapi.com/api/character/${idGuardado}`;
+//let URL = `https://rickandmortyapi.com/api/character/1`; // cambiar ID cambiar personaje
 
 fetch(URL)
   .then(response => response.json())
@@ -18,3 +20,4 @@ fetch(URL)
     document.getElementById("location").textContent = data.location.name;
   })
   .catch(error => console.log("Error:", error));
+  

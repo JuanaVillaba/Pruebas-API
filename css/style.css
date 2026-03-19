@@ -1,12 +1,35 @@
 .card-character{
-background-color: antiquewhite;
+    
+    background-color: #272b33;
+    
+
 }
 .card-locaciones{
-    background-color: aquamarine;
+    background-color: #272b33;
 }
 .card-episodios{
-    background-color: lightpink;
+    background-color: #272b33;
 }
 .titulos{
     font-size: 200%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: gray;
+    color: black;
+}
+body, .titulos{
+background-color: #272b33;
+}
+
+.personajes, .locaciones, .episodes{
+    
+    
+    
+}
+.carousel-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
