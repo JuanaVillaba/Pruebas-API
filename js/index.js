@@ -108,7 +108,7 @@ function episodios(arr){
                 if(index===0){
                     document.querySelector(".episodes").innerHTML +=`
                 <div class="carousel-item ${claseActive}">
-                <div class="card" style="width: 18rem;">
+                <div class="card card col-md-4 mx-auto" style="width: 18rem;">
                     <h2>${arr[index].name}</h2>
                     <div class="card-body">
                     <h5 class="card-air-date"> Fecha de transmicion: ${arr[index].air_date}</h5>
